@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <main>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Thank you for filling out my survey form</p>
+            <form id="survey-form">
+                <label id="name-label"> Your name
+                    <input
+                    required
+                    id="name"
+                    type="text"
+                    placeholder="last name intial, first name"
+                    />
+                </label>
+                </br>
+                <label id="email-label">
+                    Your email address
+                    <input
+                    required
+                    type="email"
+                    id="email"
+                    placeholder="example@email.com"
+                    />
+                </label>
+                </br>
+                <label id="number-label">Age (optional)
+                    <input
+                    type="number"
+                    id="number"
+                    min="1"
+                    max="100"
+                    placeholder="1-100"
+                    />
+                </label>
+                </br>
+                <label id="occuption-label">Current Occupation
+                    <select id="dropdown">
+                        <option>Student</option>
+                        <option>Part-Time</option>
+                        <option>Full-Time</option>
+                        <option>Unemployed</option>
+                    </select>
+                </label>
+                </br>
+                <label id="profession-label">
+                    <p>What is your area of profession?</p>
+                    </br>
+                    Engineering
+                    <input
+                    type="checkbox"
+                    value="Engineering"
+                    />
+                    Mathematics
+                    <input
+                    type="checkbox"
+                    value="Mathematics"
+                    />
+                </label>
+                </br>
+                <label id="gender-label">Gender
+                </br>
+                    female
+                    <input
+                    type="radio"
+                    value="female"
+                    name="gender"/>
+                    male
+                    <input
+                    type="radio"
+                    value="male"
+                    name="gender"/>
+                </label>
+                </br>
+                <label id="additional-comments">
+                    <p>If you have any additional comments please note down below</p>
+                    <textarea></textarea>
+                </label>
+
+                <input 
+                type="submit"
+                id="submit"/>
+            </form>
+        </main>
+    </body>
+</html>
