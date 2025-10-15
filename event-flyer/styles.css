@@ -1,0 +1,28 @@
+body{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto 0 auto;
+    width: 50vw;
+    min-height: calc(100vh - 100px);
+    text-align: center;
+}
+
+section{
+    width: 100%;
+}
+
+hr{
+    width: 100%;
+}
+
+.event-columns{
+    float: left;
+    padding: 0 0 0 15px;
+    text-align: center;
+}
+
+ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 10px;
+}
