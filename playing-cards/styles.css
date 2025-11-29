@@ -1,0 +1,73 @@
+*{
+    background-color: darkgreen;
+}
+
+#playing-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    width: 126px;
+    height: 176px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color:rgb(25, 24, 24);
+}
+
+.left{
+    background-color:inherit;
+    align-self: flex-start;
+}
+
+.middle{
+    background-color:inherit;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    font-size: 25px;
+    flex-wrap: wrap;
+}
+
+.right{
+    background-color:inherit;
+    align-self: flex-end;
+    rotate: calc(180deg);
+}
+
+p{
+    background-color: inherit;
+    margin: 5px;
+    color: gold;
+}
+
+.flipped{
+    rotate: calc(180deg);
+}
+.symbol{
+    display: flex;
+    white-space: preserve;
+    align-self: center;
+}
+
+.heart{
+    color: red !important;
+}
+
+.diamond{
+    color: rgb(54, 221, 221) !important;
+}
+
+.club{
+    color: white !important;
+}
+
+.spade{
+    color: antiquewhite !important;
+}
